@@ -31,6 +31,7 @@
     "vite-plugin-md": "^0.18.1",
     "vite-plugin-pages": "^0.24.2",
     "vite-plugin-pages-sitemap": "^1.2.2",
+    "vite-plugin-pwa": "^0.12.1",
     "vite-plugin-vue-layouts": "^0.6.0",
     "vite-plugin-yaml2": "^1.0.0",
     "vue-lazyload": "3.0.0-rc.2",

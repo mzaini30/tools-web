@@ -8,6 +8,7 @@ import unocss from "unocss/vite";
 import yaml from "vite-plugin-yaml2";
 import apply from "@unocss/transformer-directives";
 import generateSitemap from "vite-plugin-pages-sitemap";
+import {VitePWA} from "vite-plugin-pwa"
 import Prism from "markdown-it-prism";
 
 const hostname = "http://localhost:3000/";
@@ -15,6 +16,9 @@ const hostname = "http://localhost:3000/";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+  	VitePWA({
+  		registerType: 'autoUpdate'
+  	}),
     yaml(),
     unocss({
       transformers: [apply()],
