@@ -85,7 +85,7 @@ function olah() {
             <input
               type="submit"
               value="Generate"
-              class="btn hover:outline hover:outline-slate-500 focus:outline focus:outline-slate-500 cursor-pointer bg-slate-900 rounded px-5 py-2 btn-success text-slate-200"
+              class="btn hover:outline hover:outline-slate-500 focus:outline focus:outline-slate-500 cursor-pointer !bg-slate-900 rounded px-5 py-2 btn-success text-slate-200"
             />
           </div>
         </div>
